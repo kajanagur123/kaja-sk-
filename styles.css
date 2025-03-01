@@ -54,6 +54,10 @@
         display: block;
         text-align: center !important;
         }
+        img{
+    width:250px !important;
+    height: fit-content !important;
+}
         
         }
     
