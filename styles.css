@@ -367,15 +367,22 @@ height: 200px;
 
 }
 .services-1{
-display: flex;
-    margin: 20px;
-    padding: 20px;
+   .services-1{
+        display: flex;
 
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-
-    color: white;
+        flex-wrap: wrap;
+    
+        margin: 20px;
+    
+        
+        padding: 20px;
+    
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        
+        color: white;
+    }
     
 }
 .services-1:hover{
@@ -394,18 +401,22 @@ display: flex;
     background-color: rgb(150, 13, 13);
 }
 .services-2{
-    display: flex;
-    height: 300px;
+     .services-1{
+        display: flex;
 
-
-    margin: 20px;
-    padding: 20px;
-
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-
-    color: white;
+        flex-wrap: wrap;
+    
+        margin: 20px;
+    
+        
+        padding: 20px;
+    
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        
+        color: white;
+    }
 }
 .services-1 p{
     font-size: 15px;
