@@ -54,10 +54,10 @@
         display: block;
         text-align: center !important;
         }
-        img{
-    width:250px !important;
-    height: fit-content !important;
-}
+ .img imgs{
+     width:250px !important;
+     heigth:fit-content !important;
+ }
       .img img{
 
         width: 120px !important;
