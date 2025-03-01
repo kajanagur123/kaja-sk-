@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -123,7 +124,13 @@
     
     
     }
-    
+    .services-1{
+        display: block;
+
+    }
+    .services-1{
+        display: block;
+    }
     
     .about-3 p{
     font-size: 10px;
@@ -145,11 +152,7 @@
     
     
     }
-    .services-1{
-    
-    text-align: center;
-    
-    }
+   
     
     }
     @media screen and (min-width:600px) {
@@ -209,9 +212,9 @@ span{
 
 
 .img img{
-    width: 200px;
+    width: 450px;
     margin-top: 20px;
-    height:200px;
+    height:350px;
 
     
     border: 2px solid red;
@@ -304,8 +307,8 @@ hr:hover{
 }
 
 .imgs img{
-        width:50%;
-    height: 350px;
+        width:400px;
+    height: 550px;
     border: 5px solid red;
 }
 .about-3 h2{
@@ -350,15 +353,7 @@ transition-duration: 1s;
     font-size: 20px;
     text-transform: capitalize;
 }
-.services-1 i{
-    opacity: 1 !important;
-    
-    margin: 20px;
-    font-size: 100px;
-    padding: 20px;
-height: 200px;
-    color: black;
-}
+
 .content{
     text-align: center;
     width: 200px;
@@ -366,64 +361,7 @@ height: 200px;
     color: black;
 
 }
-.services-1{
-   .services-1{
-        display: flex;
 
-        flex-wrap: wrap;
-    
-        margin: 20px;
-    
-        
-        padding: 20px;
-    
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px;
-        
-        color: white;
-    }
-    
-}
-.services-1:hover{
-    background-color: rgb(150, 13, 13);
-}
-.services-2 i{
-    opacity: 1 !important;
-    
-    margin: 20px;
-    font-size: 100px;
-    padding: 20px;
-
-    color: black;
-}
-.services-2:hover{
-    background-color: rgb(150, 13, 13);
-}
-.services-2{
-     .services-1{
-        display: flex;
-
-        flex-wrap: wrap;
-    
-        margin: 20px;
-    
-        
-        padding: 20px;
-    
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px;
-        
-        color: white;
-    }
-}
-.services-1 p{
-    font-size: 15px;
-}
-.services-2 p{
-    font-size: 10px;
-}
 .ser{
     display: flex;
     flex-wrap: wrap;
@@ -513,6 +451,48 @@ height: 200px;
     }
     .services-4 p{
         font-size: 10px;
+    }
+    .services-1 i{
+        opacity: 1 !important;
+
+    
+        text-align: center;
+        font-size: 100px;
+        padding: 20px;
+    
+        color: black;
+
+    }
+    .services-1 p{
+        font-size:10px;
+
+    }
+    .services-1{
+        height: 400px;
+        display: flex;
+        
+        
+
+        flex-wrap: wrap;
+
+   
+        margin: 20px;
+        padding: 20px;
+    
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        
+        color: white;
+    
+        
+
+    }
+    .services-1:hover{
+    
+        
+            background-color: rgb(150, 13, 13);
+            transform: scale(1);
     }
     .services-5 i{
         opacity: 1 !important;
@@ -862,3 +842,45 @@ i:hover {
   button:hover {
     background-color: #0056b3;
   }
+  .services-2 i{
+    opacity: 1 !important;
+
+
+    text-align: center;
+    font-size: 100px;
+    padding: 20px;
+
+    color: black;
+
+}
+.services-2 p{
+    font-size:10px;
+
+}
+.services-2{
+    height: 400px;
+    display: flex;
+    
+    
+
+    flex-wrap: wrap;
+
+
+    margin: 20px;
+    padding: 20px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+    color: white;
+
+    
+
+}
+.services-2:hover{
+
+    
+        background-color: rgb(150, 13, 13);
+        transform: scale(1);
+}
