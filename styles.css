@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -211,7 +212,7 @@ span{
     width: 200px;
     margin-top: 20px;
     height:200px;
-    border-radius: 50%;
+
     
     border: 2px solid red;
 }
@@ -287,6 +288,9 @@ h4{
     font-size: 40px;
 
 }
+body{
+    width: 100%;
+}
 hr{
  border: 3px solid black;
  margin: 20px;
@@ -294,11 +298,14 @@ hr{
 hr:hover{
     border: 3px solid red;
 }
+.services{
+    width: 100%;
+    color: #ddd;
+}
 
 .imgs img{
-    border-radius: 50%;
-        width:30%;
-    height: 400px;
+        width:50%;
+    height: 350px;
     border: 5px solid red;
 }
 .about-3 h2{
